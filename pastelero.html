@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pasteleria Lucerito-pastelero
+        </title>
+    </head>
+    <body>
+        <img id="logo" name="logo" src="./logo_pasteleria.png" alt="Pasteleria Lucerito" width="350px" height="350px">
+        <h1>Pasteleria Lucerito</h1>
+        <h1>Pastelero...</h1>
+        <!-- Formularios -->
+        <h2>Formulario para hacer pedido
+        </h2>
+        <form action="/accion.js" id="form1" method="post">
+            <fieldset>
+                <legend>
+                    Datos del cliente
+                </legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="ingresa tu nombre"><br><br>
+                <label for="telefono">Télefono :</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="ingresa tu telefono"><br><br>
+                <label for="correo">Coreo electronico :</label>
+                <input type="email" id="correo" name="correo" placeholder="ingresa tu correo"><br><br>
+
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Inventario
+                </legend>
+                <div>
+                    <fieldset>
+                        <legend>
+                            Cantidad de sabores de pasteles
+                        </legend>
+                        <table>
+                            <thead>
+                                <th>Sabores</th>
+                                <th>Cantidad</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Café</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>Chocolate</td>
+                                    <td>50
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Vainilla</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>Tres leches</td>
+                                    <td>30</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+                    <br><br>
+                    <fieldset>
+                        <legend>
+                            Cantidad de adornos de pasteles
+                        </legend>
+                        <table>
+                            <thead>
+                                <th>Adorno</th>
+                                <th>Cantidad</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Adorno clásico
+                                    </td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>Adorno sencillo</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>Adorno elegante</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>Adorno moderno</td>
+                                    <td>5</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+                </div>
+
+            </fieldset>
+
+            <br><br>
+            <fieldset>
+                <legend>
+                    Pedidos
+                </legend>
+                <table>
+                    <thead>
+                        <th># pedido</th>
+                        <th>Cliente</th>
+                        <th>Télefono</th>
+                        <th>Correo</th>
+                        <th>Sabores</th>
+                        <th>Adornos</th>
+                        <th>Cantidad</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>
+                                Guadalupe Vargaz Morales
+                            </td>
+                            <td>4116533451</td>
+                            <td>guaudalupe@correo.com</td>
+                            <td>Vanilla, Chocolate</td>
+                            <td>Clásico, sencillo</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>
+                                Pedro Perez Villanueva
+                            </td>
+                            <td>4116553351</td>
+                            <td>pedro@correo.com</td>
+                            <td>Fresa, Chocolate</td>
+                            <td>
+                                Moderno</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                Margarita Gómez Pegueros
+                            </td>
+                            <td>4116554251</td>
+                            <td>margarita@correo.com</td>
+                            <td>Vainilla,Fresa, Chocolate</td>
+                            <td>
+                                Moderno, elegante</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+        </form>
+
+
+    </body>
+</html>
